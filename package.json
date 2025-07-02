@@ -5,7 +5,8 @@
 	"main": "index.js",
 	"scripts": {
 		"start": "node -r ts-node/register --env-file=.env src/Model.ts",
-		"langchain:prompt_template": "node -r ts-node/register --env-file=.env src/PromptTemplate.ts"
+		"langchain:prompt_template": "node -r ts-node/register --env-file=.env src/PromptTemplate.ts",
+		"langchain:parser": "node -r ts-node/register --env-file=.env src/OutputParsers.ts"
 	},
 	"keywords": [],
 	"author": "Narayan Maaity",
