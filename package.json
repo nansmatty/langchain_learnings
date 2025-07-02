@@ -14,5 +14,9 @@
 		"@types/node": "^24.0.10",
 		"ts-node": "^10.9.2",
 		"typescript": "^5.8.3"
+	},
+	"dependencies": {
+		"@langchain/community": "^0.3.47",
+		"langchain": "^0.3.29"
 	}
 }
