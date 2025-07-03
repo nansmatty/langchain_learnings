@@ -4,7 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "node -r ts-node/register --env-file=.env src/Model.ts"
+		"start": "node -r ts-node/register --env-file=.env src/Model.ts",
+		"langchain:prompt_template": "node -r ts-node/register --env-file=.env src/PromptTemplate.ts"
 	},
 	"keywords": [],
 	"author": "Narayan Maaity",
@@ -17,6 +18,7 @@
 	},
 	"dependencies": {
 		"@langchain/community": "^0.3.47",
+		"@langchain/core": "^0.3.61",
 		"@langchain/openai": "^0.5.16",
 		"langchain": "^0.3.29"
 	}
