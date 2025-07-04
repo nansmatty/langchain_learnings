@@ -6,7 +6,8 @@
 	"scripts": {
 		"start": "node -r ts-node/register --env-file=.env src/Model.ts",
 		"langchain:prompt_template": "node -r ts-node/register --env-file=.env src/PromptTemplate.ts",
-		"langchain:parser": "node -r ts-node/register --env-file=.env src/OutputParsers.ts"
+		"langchain:parser": "node -r ts-node/register --env-file=.env src/OutputParsers.ts",
+		"langchain:rag": "node -r ts-node/register --env-file=.env src/rag/BasicRag.ts"
 	},
 	"keywords": [],
 	"author": "Narayan Maaity",
