@@ -7,7 +7,8 @@
 		"start": "node -r ts-node/register --env-file=.env src/Model.ts",
 		"langchain:prompt_template": "node -r ts-node/register --env-file=.env src/PromptTemplate.ts",
 		"langchain:parser": "node -r ts-node/register --env-file=.env src/OutputParsers.ts",
-		"langchain:rag": "node -r ts-node/register --env-file=.env src/rag/BasicRag.ts"
+		"langchain:rag": "node -r ts-node/register --env-file=.env src/rag/BasicRag.ts",
+		"langchain:rag_webloader": "node -r ts-node/register --env-file=.env src/rag/Webloader.ts"
 	},
 	"keywords": [],
 	"author": "Narayan Maaity",
@@ -22,6 +23,7 @@
 		"@langchain/community": "^0.3.47",
 		"@langchain/core": "^0.3.61",
 		"@langchain/openai": "^0.5.16",
+		"cheerio": "^1.1.0",
 		"langchain": "^0.3.29"
 	}
 }
